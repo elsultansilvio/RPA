@@ -7,7 +7,7 @@ def PathFile(path, file):
     location = '{0}/{1}'.format(str(path),str(file))
     return location
 
-SOURCE_PATH = 'C:/Users/jancl/scripts'
+SOURCE_PATH = './resources'
 SOURCE_FILE = 'input_automation.xlsx'
 SOURCE = PathFile(SOURCE_PATH,SOURCE_FILE)
 REGION = (450,120,880,800)
@@ -33,19 +33,18 @@ def writeNtype(row, column, confidence=0.92):
 
 if __name__ == "__main__":
     time.sleep(5)
-    gui.click(gui.locateCenterOnScreen(variable_input_location['start']))
+    gui.click(gui.locateCenterOnScreen(variable_input_location['start'], confidence=0.8))
     time.sleep(0.1)
     for n, row in df.iterrows():
-        for column in df.columns:        
+        for column in df.columns:    
+            CONFIDENCE = 0.9    
             try:    
                 if column == 'Phone Number':
-                    CONFIDENCE = 0.86
-                else:
-                    CONFIDENCE = 0.92
+                    CONFIDENCE = 0.78
                 writeNtype(row, column, CONFIDENCE)
             except:
                 print(column,'> Error')
-                CONFIDENCE = 0.785    
+                CONFIDENCE = 0.82    
                 writeNtype(row,column,CONFIDENCE)          
             
         submit_location = gui.locateCenterOnScreen(variable_input_location['submit'], region=REGION, confidence=0.8)
