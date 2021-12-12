@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "3m0ZsEiaVuTjHCTk02C21ngZPRyLlP+3hFbfZt6todcLj0d3dazpwmBjt3luNEg/YI6SUKQ/2F7WeewoRQCOWw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\jancl\\Downloads\\RPA Hackathon Assignments-20211212T000618Z-001\\RPA Hackathon Assignments\\JobScraperV2.0\\JobScraperRobot_Dispatcher\\.local\\",
+  "expectedPackageFiles": [
+    "C:\\Users\\jancl\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\csvhelper\\2.13.5\\csvhelper.2.13.5.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis\\1.44.0\\google.apis.1.44.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.auth\\1.44.0\\google.apis.auth.1.44.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.calendar.v3\\1.44.0.1872\\google.apis.calendar.v3.1.44.0.1872.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.core\\1.44.0\\google.apis.core.1.44.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.docs.v1\\1.44.0.1877\\google.apis.docs.v1.1.44.0.1877.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.drive.v3\\1.44.0.1863\\google.apis.drive.v3.1.44.0.1863.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.gmail.v1\\1.44.0.1859\\google.apis.gmail.v1.1.44.0.1859.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\google.apis.sheets.v4\\1.44.0.1877\\google.apis.sheets.v4.1.44.0.1877.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\microsoft.applicationinsights\\2.3.0\\microsoft.applicationinsights.2.3.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.20\\microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\7.10.6071\\microsoft.visualstudio.ole.interop.7.10.6071.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\mimekit\\2.5.1\\mimekit.2.5.1.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\nodatime\\2.4.7\\nodatime.2.4.7.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\npoi\\2.4.1\\npoi.2.4.1.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\sharpziplib\\1.0.0\\sharpziplib.1.0.0.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\uipath.excel.activities\\2.8.3-preview\\uipath.excel.activities.2.8.3-preview.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\uipath.gsuite.activities\\1.4.1\\uipath.gsuite.activities.1.4.1.nupkg.sha512",
+    "C:\\Users\\jancl\\.nuget\\packages\\uipath.system.activities\\20.4.0\\uipath.system.activities.20.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "filePath": "C:\\Users\\jancl\\Downloads\\RPA Hackathon Assignments-20211212T000618Z-001\\RPA Hackathon Assignments\\JobScraperV2.0\\JobScraperRobot_Dispatcher\\.local",
+      "message": "Unable to find package UiPath.UIAutomation.Activities with version (= 20.4.0-preview)\r\n  - Found 62 version(s) in https://www.myget.org/F/workflow [ Nearest version: 20.4.1 ]\r\n  - Found 62 version(s) in Official [ Nearest version: 20.4.1 ]\r\n  - Found 62 version(s) in https://www.myget.org/F/workflow/ [ Nearest version: 20.4.1 ]\r\n  - Found 1 version(s) in C:\\Program Files\\UiPath\\Studio\\Packages [ Nearest version: 21.10.4 ]\r\n  - Found 1 version(s) in Local [ Nearest version: 21.10.4 ]\r\n  - Found 0 version(s) in https://api.nuget.org/v3/index.json\r\n  - Found 0 version(s) in nuget.org\r\n  - Found 0 version(s) in https://gallery.uipath.com/api/v2\r\n  - Found 0 version(s) in Connect",
+      "libraryId": "UiPath.UIAutomation.Activities",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win10-x64"
+      ]
+    }
+  ]
+}
